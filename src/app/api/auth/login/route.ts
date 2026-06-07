@@ -1,5 +1,7 @@
 import { NextRequest, NextResponse } from "next/server";
 import { login } from "@/lib/bluesky";
+
+export const runtime = "edge";
 import { setSession } from "@/lib/auth";
 
 export async function POST(req: NextRequest) {

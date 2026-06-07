@@ -1,0 +1,12 @@
+name = "the-edc"
+compatibility_date = "2026-06-07"
+compatibility_flags = ["nodejs_compat"]
+
+pages_build_output_dir = ".vercel/output/static"
+
+[build]
+command = "npm run build"
+
+[pages]
+buildCommand = "npm run build"
+framework = "nextjs"
